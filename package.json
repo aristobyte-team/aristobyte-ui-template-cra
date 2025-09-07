@@ -1,0 +1,51 @@
+{
+  "name": "aristobyte-ui-template-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aristobyte-ui/anchor": "^1.0.44",
+    "@aristobyte-ui/button": "^1.0.44",
+    "@aristobyte-ui/card": "^1.0.44",
+    "@aristobyte-ui/label": "^1.0.44",
+    "@aristobyte-ui/utils": "^1.0.44",
+    "next": "^15.5.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sass": "^1.92.1"
+  },
+  "devDependencies": {
+    "@aristobyte-ui/eslint-config": "^1.0.44",
+    "@aristobyte-ui/typescript-config": "^1.0.44",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.27.0",
+    "raw-loader": "^4.0.2",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
